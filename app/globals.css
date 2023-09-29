@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* dynmically generate */
+.buy-btn {
+  @apply px-4 py-2 font-bold bg-green-500 rounded text-gray-50 hover:text-white hover:bg-green-600;
+}
+
+.sell-btn {
+  @apply px-4 py-2 font-bold bg-red-500 rounded text-gray-50 hover:text-white hover:bg-red-600;
+}
