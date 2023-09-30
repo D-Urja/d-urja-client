@@ -1,3 +1,7 @@
+'use client';
+
+import classNames from '@/utils/classNames';
+
 const buyOrders = [
 	{
 		id: 1,
@@ -30,10 +34,6 @@ const buyOrders = [
 		user: 'user3',
 	},
 ];
-
-function classNames(...classes: any[]) {
-	return classes.filter(Boolean).join(' ');
-}
 
 export default function OrderTable({ type }: { type: 'buy' | 'sell' }) {
 	return (
